@@ -1,0 +1,78 @@
+nav{
+    z-index: 2;
+    position: fixed;
+    height: 84px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 300ms;
+}
+.navbar-arrows{
+    padding-left: 50px;
+}
+.navArrow{
+    cursor: pointer;
+}
+.navbar-arrow-right{
+    transform: rotate(180deg);
+    margin-left: 24px;
+}
+.navbar-playlist-panel{
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar-playlist-panel img{
+    cursor: pointer;
+    padding-inline: 10px;
+}
+.navbar-avatar-wrap{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 50px;
+    height: 100%;
+}
+.navbar-avatar{
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50px;
+}
+.navbar-avatar p{
+    padding-left: 12px;
+    padding-right: 32px;
+}
+.navbar-avatar-img{
+    fill: white;
+    padding: 3px;
+    cursor: pointer;
+}
+.navbar-avatar-name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+.navbar-avatar-nonhover{
+    display: none;
+}
+.navbar-avatar-hovered{
+    position: absolute;
+    padding: 10px 16px 10px 16px;
+    top: 75px;
+    font-size: 16px;
+    line-height: 19px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 1440px){
+    .navbar-arrows{
+        padding-left: 16px;
+    }
+    .navbar-avatar,.navbar-arrow-right{
+        display: none;
+    }
+}

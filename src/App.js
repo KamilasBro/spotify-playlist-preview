@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar"
+import Front from "./components/Front"
+import Playlist from "./components/Playlist"
+import Footer from "./components/Footer"
+import React from "react"
+export default function App() {
+// website was coded from this figma draft
+// https://www.figma.com/file/4snzM0rYzukos5eJWBAK2F/Design?t=zACpWMr8bsiYgqm9-6
 
-function App() {
+  console.log("website was coded from this figma draft:")
+  console.log("https://www.figma.com/file/4snzM0rYzukos5eJWBAK2F/Design?t=zACpWMr8bsiYgqm9-6")
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Navbar/>
+      <main>
+        <Front/>
+        <Playlist/>
+      </main>
+      <Footer/>
+    </>
+  )
 }
 
-export default App;
+

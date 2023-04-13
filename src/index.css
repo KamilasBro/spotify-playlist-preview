@@ -1,13 +1,19 @@
+@import url("./css/navbar.css");
+@import url("./css/front.css");
+@import url("./css/playlist.css");
+@import url("./css/footer.css");
 body {
+  color: rgba(255, 255, 255, 1);
+  font-family:'Lato';
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #1F1F1F;
+}
+button, img, li, ul{
+  -webkit-tap-highlight-color: transparent;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media (max-width: 1440px){
+  body{
+    background-color: #080808;
+  }
 }
