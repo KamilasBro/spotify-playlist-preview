@@ -1,7 +1,8 @@
-import arrow from "../images/arrow.png"
-import avatar from "../images/avatar.png"
-import play from "../images/playButton.png"
+import arrow from "../../images/arrow.png"
+import avatar from "../../images/avatar.png"
+import play from "../../images/playButton.png"
 import React,{useState} from "react"
+import "./navbar.css"
 export default function Navbar(){
     const [Ypos, setYPos]=useState(false)
     document.addEventListener("scroll", ()=>{

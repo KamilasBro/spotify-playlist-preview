@@ -1,7 +1,7 @@
 .banner{
     width: 100%;
     background-size: cover;
-    background: url("../images/desktop.png") no-repeat center;
+    background: url("../../images/desktop.png") no-repeat center;
     background-color: black;
 }
 .banner-text{
@@ -28,7 +28,7 @@
 
 @media (max-width: 1440px){
     .banner{
-        background: url("../images/tablet.png") no-repeat center;
+        background: url("../../images/tablet.png") no-repeat center;
     }
     .banner-text{
         padding-left: 32px;
@@ -47,11 +47,11 @@
 }
 @media (max-width: 850px){
     .banner{
-        background: url("../images/mobile.png") no-repeat stretch;
+        background: url("../../images/mobile.png") no-repeat stretch;
     }
 }
 @media (max-width: 700px){
     .banner{
-        background: url("../images/smallMobile.png") no-repeat center;
+        background: url("../../images/smallMobile.png") no-repeat center;
     }
 }

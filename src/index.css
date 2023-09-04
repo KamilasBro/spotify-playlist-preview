@@ -1,7 +1,3 @@
-@import url("./css/navbar.css");
-@import url("./css/front.css");
-@import url("./css/playlist.css");
-@import url("./css/footer.css");
 body {
   color: rgba(255, 255, 255, 1);
   font-family:'Lato';

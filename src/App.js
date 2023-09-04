@@ -1,7 +1,7 @@
-import Navbar from "./components/Navbar"
-import Front from "./components/Front"
-import Playlist from "./components/Playlist"
-import Footer from "./components/Footer"
+import Navbar from "./components/Navbar/Navbar"
+import Front from "./components/Front/Front"
+import Playlist from "./components/Playlist/Playlist"
+import Footer from "./components/Footer/Footer"
 import React from "react"
 export default function App() {
 // website was coded from this figma draft

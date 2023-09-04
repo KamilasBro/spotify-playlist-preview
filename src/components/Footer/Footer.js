@@ -1,11 +1,13 @@
-import fb from "../images/fb.png"
-import twitter from "../images/twitter.png"
-import ig from "../images/ig.png"
-import home from "../images/secondNavbar/home.png"
-import search from "../images/secondNavbar/search.png"
-import library from "../images/secondNavbar/library.png"
-import likedSongs from "../images/secondNavbar/liked.png"
+import fb from "../../images/fb.png"
+import twitter from "../../images/twitter.png"
+import ig from "../../images/ig.png"
+import home from "../../images/secondNavbar/home.png"
+import search from "../../images/secondNavbar/search.png"
+import library from "../../images/secondNavbar/library.png"
+import likedSongs from "../../images/secondNavbar/liked.png"
 import React from "react"
+
+import "./footer.css"
 export default function Footer(){
     return(
         <footer>

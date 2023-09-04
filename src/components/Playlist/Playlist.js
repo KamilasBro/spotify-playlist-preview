@@ -1,10 +1,11 @@
-import play from "../images/playButton.png"
-import heart from "../images/heart.png"
-import options from "../images/moreOptions.png"
-import data from "../data/Data"
-import playSong from "../images/playSong.png"
-import listArrow from "../images/listArrow.png"
+import play from "../../images/playButton.png"
+import heart from "../../images/heart.png"
+import options from "../../images/moreOptions.png"
+import data from "../../data/Data"
+import playSong from "../../images/playSong.png"
+import listArrow from "../../images/listArrow.png"
 import React,{useState} from "react"
+import "./playlist.css"
 //we don't use useEffect as we don't fetch data from API
 //instead we use local data file as it's preview version and we have only 8 songs as example
 //however the whole program is coded around any number of songs

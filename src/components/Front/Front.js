@@ -1,3 +1,4 @@
+import "./front.css"
 export default function Front(){
     return(
         <section className="banner">
