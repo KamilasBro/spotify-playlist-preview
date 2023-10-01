@@ -4,3 +4,5 @@ Spotify playlist preview was builded from this figma design: https://www.figma.c
 It showcases some logic of user experience, however music wasn't provided for me so there is no music playing.
 #
 Coded in react.
+# Preview
+https://spotify-playlist-preview.netlify.app/
